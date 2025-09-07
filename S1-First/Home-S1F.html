@@ -1,111 +1,29 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
   <head>
+    <!-- إعدادات أساسية -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>العلوم المتكاملة - أولى ثانوي ترم أول</title>
+    <!-- استدعاء مكتبة Bootstrap -->
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- استدعاء الخطوط -->
     <link
       href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;600&family=Rubik:wght@400;600&display=swap"
       rel="stylesheet"
     />
-    <style>
-      * {
-        box-sizing: border-box;
-      }
-      body {
-        font-family: "El Messiri", sans-serif;
-        background: #f9f9f9;
-        margin: 0;
-        padding: 0;
-      }
-      /* Navbar */
-      .navbar {
-        background: #0077b6;
-      }
-      .navbar-brand img {
-        height: 70px;
-        border-radius:50px;
-      }
-      .nav-link {
-        color: #fff !important;
-        font-weight: 600;
-      }
-      .nav-link:hover {
-        color: #ffdd00 !important;
-      }
-
-      /* Hero */
-      .hero {
-        text-align: center;
-        padding: 50px 20px;
-        background: linear-gradient(to bottom, #0077b6, #00b4d8);
-        color: #fff;
-      }
-      .hero img {
-        max-width: 250px;
-        border-radius: 15px;
-        margin-top: 20px;
-      }
-      .hero h1 span {
-        color: #ffdd00;
-      }
-
-      /* Sections */
-      .section-title {
-        text-align: center;
-        margin: 40px 0 20px;
-        font-size: 26px;
-        color: #0077b6;
-      }
-
-      .card {
-        border: none;
-        border-radius: 15px;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        transition: transform 0.2s;
-      }
-      .card:hover {
-        transform: translateY(-5px);
-      }
-      .card img {
-        border-top-left-radius: 15px;
-        border-top-right-radius: 15px;
-        height: 180px;
-        object-fit: cover;
-      }
-      .card h5 {
-        margin: 15px 0;
-        color: #333;
-        font-weight: 600;
-      }
-
-      /* Footer */
-      footer {
-        background: #0077b6;
-        color: #fff;
-        text-align: center;
-        padding: 20px;
-        margin-top: 40px;
-      }
-      footer a img {
-        width: 35px;
-        margin: 10px;
-        border-radius: 50%;
-      }
-      footer span {
-        color: #ffdd00;
-        font-weight: bold;
-      }
-    </style>
   </head>
   <body>
-    <!-- Navbar -->
+    <!-- ========== Navbar ========== -->
     <nav class="navbar navbar-expand-lg">
       <div class="container">
+        <!-- اللوجو -->
         <a class="navbar-brand" href="#">
           <img src="../imgs/kh.png" alt="Logo" />
         </a>
+
+        <!-- زر القائمة في الموبايل -->
         <button
           class="navbar-toggler bg-light"
           type="button"
@@ -114,6 +32,8 @@
         >
           ☰
         </button>
+
+        <!-- الروابط -->
         <div class="collapse navbar-collapse" id="mainMenu">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
@@ -130,19 +50,18 @@
       </div>
     </nav>
 
-    <!-- Hero -->
+    <!-- ========== Hero Section ========== -->
     <div class="hero">
       <h1>العلوم المتكاملة <span>أولى ثانوي</span></h1>
-      
     </div>
 
-    <!-- Author -->
+    <!-- ========== Author Section ========== -->
     <div class="container text-center mt-4">
       <h3>المهندس: محمد مصطفى خلف</h3>
       <p class="text-muted">Electrical Engineer & Educator</p>
     </div>
 
-    <!-- دعاء -->
+    <!-- ========== دعاء Section ========== -->
     <div class="container text-center mt-3">
       <blockquote class="blockquote p-3 bg-light rounded">
         <p>
@@ -152,99 +71,94 @@
       </blockquote>
     </div>
 
-    <!-- الباب 1 -->
+    <!-- ========== الباب 1 ========== -->
     <h2 class="section-title">📘 الباب الأول: الكميات الفيزيائية</h2>
     <div class="container">
       <div class="row g-4">
+        <!-- كارت 1 -->
         <div class="col-md-4">
           <div class="card">
             <img src="../imgs/pr2/1.jpg" alt="وحدات القياس" />
             <div class="card-body text-center">
               <h5>وحدات القياس وصيغة الأبعاد</h5>
-              <a href="./select-1.html" class="btn btn-primary btn-sm"
-                >ابدأ التعلم</a
-              >
+              <a href="./select-1.html" class="btn btn-primary btn-sm">ابدأ التعلم</a>
             </div>
           </div>
         </div>
+        <!-- كارت 2 -->
         <div class="col-md-4">
           <div class="card">
             <img src="../imgs/pr2/2.jpg" alt="خطأ القياس" />
             <div class="card-body text-center">
               <h5>خطأ القياس</h5>
-              <a href="./select-2.html" class="btn btn-primary btn-sm"
-                >ابدأ التعلم</a
-              >
+              <a href="./select-2.html" class="btn btn-primary btn-sm">ابدأ التعلم</a>
             </div>
           </div>
         </div>
+        <!-- كارت 3 -->
         <div class="col-md-4">
           <div class="card">
             <img src="../imgs/pr2/3.jpg" alt="الكميات" />
             <div class="card-body text-center">
               <h5>الكميات القياسية والمتجهة</h5>
-              <a href="./select-3.html" class="btn btn-primary btn-sm"
-                >ابدأ التعلم</a
-              >
+              <a href="./select-3.html" class="btn btn-primary btn-sm">ابدأ التعلم</a>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- الباب 2 -->
+    <!-- ========== الباب 2 ========== -->
     <h2 class="section-title">📗 الباب الثاني: الحركة الخطية</h2>
     <div class="container">
       <div class="row g-4">
+        <!-- كارت 1 -->
         <div class="col-md-4">
           <div class="card">
             <img src="../imgs/pr2/4.jpg" alt="الحركة والسرعة" />
             <div class="card-body text-center">
               <h5>الحركة والسرعة</h5>
-              <a href="./select-4.html" class="btn btn-primary btn-sm"
-                >ابدأ التعلم</a
-              >
+              <a href="./select-4.html" class="btn btn-primary btn-sm">ابدأ التعلم</a>
             </div>
           </div>
         </div>
+        <!-- كارت 2 -->
         <div class="col-md-4">
           <div class="card">
             <img src="../imgs/pr2/5.jpg" alt="العجلة" />
             <div class="card-body text-center">
               <h5>العجلة</h5>
-              <a href="./select-5.html" class="btn btn-primary btn-sm"
-                >ابدأ التعلم</a
-              >
+              <a href="./select-5.html" class="btn btn-primary btn-sm">ابدأ التعلم</a>
             </div>
           </div>
         </div>
+        <!-- كارت 3 -->
         <div class="col-md-4">
           <div class="card">
             <img src="../imgs/pr2/6.jpg" alt="معادلات الحركة" />
             <div class="card-body text-center">
               <h5>معادلات الحركة</h5>
-              <a href="./select-6.html" class="btn btn-primary btn-sm"
-                >ابدأ التعلم</a
-              >
+              <a href="./select-6.html" class="btn btn-primary btn-sm">ابدأ التعلم</a>
             </div>
           </div>
         </div>
-        <!-- باقي الأبواب بنفس النمط -->
+        <!-- تقدر تكمل باقي الأبواب بنفس النمط -->
       </div>
     </div>
 
-    <!-- Footer -->
+    <!-- ========== Footer ========== -->
     <footer>
       <h4>تواصل معي</h4>
-      <a href="https://wa.me/+2001221122383"
-        ><img src="../imgs/w.jpeg" alt="WhatsApp"
-      /></a>
+      <a href="https://wa.me/+2001221122383">
+        <img src="../imgs/w.jpeg" alt="WhatsApp" />
+      </a>
       <p>
         &copy; 2024/2025 جميع الحقوق محفوظة - تصميم:
         <span>Mohamed Mostafa Khalaf</span>
       </p>
     </footer>
 
+    <!-- ملفات الجافاسكربت -->
     <script src="../js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
