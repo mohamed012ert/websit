@@ -1,0 +1,90 @@
+ /* عام */
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "El Messiri", sans-serif;
+    background: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* شريط التنقل (Navbar) */
+  .navbar {
+    background: #0077b6;
+  }
+  .navbar-brand img {
+    height: 70px;
+    border-radius: 50px;
+  }
+  .nav-link {
+    color: #fff !important;
+    font-weight: 600;
+  }
+  .nav-link:hover {
+    color: #ffdd00 !important;
+  }
+
+  /* القسم الرئيسي (Hero) */
+  .hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to bottom, #0077b6, #00b4d8);
+    color: #fff;
+  }
+  .hero img {
+    max-width: 250px;
+    border-radius: 15px;
+    margin-top: 20px;
+  }
+  .hero h1 span {
+    color: #ffdd00;
+  }
+
+  /* العناوين */
+  .section-title {
+    text-align: center;
+    margin: 40px 0 20px;
+    font-size: 26px;
+    color: #0077b6;
+  }
+
+  /* الكروت */
+  .card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  .card img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 180px;
+    object-fit: cover;
+  }
+  .card h5 {
+    margin: 15px 0;
+    color: #333;
+    font-weight: 600;
+  }
+
+  /* الفوتر */
+  footer {
+    background: #0077b6;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  footer a img {
+    width: 35px;
+    margin: 10px;
+    border-radius: 50%;
+  }
+  footer span {
+    color: #ffdd00;
+    font-weight: bold;
+  }
